@@ -1,0 +1,55 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #EBEBEB;
+}
+
+.container {
+  margin: 25px 350px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.start {
+  margin-top: 200px;
+  height: 70px;
+  width: 400px;
+  font: small-caps 32px sans-serif;
+  color: white;
+  background-color: #f95c5c;
+  border: 1px solid red;
+  border-radius: 5px;
+  box-shadow: 0 0 5px red;
+}
+
+.hide {
+  display: none;
+}
+
+.again {
+  margin-top: 200px;
+  height: 70px;
+  width: 300px;
+  font: small-caps 32px sans-serif;
+  color: white;
+  background-color: #39a533;
+  border: 1px solid green;
+  border-radius: 5px;
+  box-shadow: 0 0 5px green;
+}
+
+.puzzle {
+  margin: 10px 20px;
+  width: 100px;
+  height: 120px;
+  border: 1px solid white;
+  border-radius: 5px;
+  background: navy;
+  box-shadow: 0 0 5px navy;
+}
