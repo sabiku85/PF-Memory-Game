@@ -8,11 +8,6 @@ html {
   background-color: #eee;
   font-size: 10px;
   font-family: arial, sans-serif;
-}
-
-.container {
-  display: flex;
-  width: 100%;
   height: 100vh;
   overflow: hidden;
 }
@@ -72,7 +67,7 @@ section.cards {
   align-items: center;
   margin-left: 15vw;
   margin-right: 15vw;
-
+  height: 100vh;
 }
 
 .card {
@@ -80,6 +75,19 @@ section.cards {
   width: 15%;
   height: 18vh;
   margin: 2% 4%;
+  border-radius: 1rem;
+  border: .5rem solid #0C3B4C;
+  box-shadow: 0 0 .4rem .2rem #888;
+  cursor: pointer;
+  transition: box-shadow .1s, transform .7s;
+}
+
+.card:hover {
+  box-shadow: 0 0 .4rem .6rem #777;
+}
+
+.rotate {
+  transform: rotateY(180deg);
 }
 
 /* kolor divów: #197699 */
