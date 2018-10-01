@@ -88,6 +88,7 @@ section.cards {
 
 .rotate {
   transform: rotateY(180deg);
+  border: none;
 }
 
 /* kolor divów: #197699 */
